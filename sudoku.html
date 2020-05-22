@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sudoku</title>
+	<link rel="stylesheet" href="css/sudoku.css">
+	<script src="js/sudoku.js"></script>
+</head>
+<body>
+	<h1>sudoku-solver</h1>
+	<table>
+		<tr>
+			
+			<td><input type="number" id="00" size=1 value=""></input></td>
+			<td><input type="number" id="01" size=1 value=""></input></td>
+			<td><input type="number" id="02" size=1 value=""></input></td>
+			<td><input type="number" id="03" size=1 value=""></input></td>
+			<td><input type="number" id="04" size=1 value=""></input></td>
+			<td><input type="number" id="05" size=1 value=""></input></td>
+			<td><input type="number" id="06" size=1 value=""></input></td>
+			<td><input type="number" id="07" size=1 value=""></input></td>
+			<td><input type="number" id="08" size=1 value=""></input></td>
+		</tr>
+		<tr>
+		
+			<td><input type="number" id="10" size=1 value=""></input></td>
+			<td><input type="number" id="11" size=1 value=""></input></td>
+			<td><input type="number" id="12" size=1 value=""></input></td>
+			<td><input type="number" id="13" size=1 value=""></input></td>
+			<td><input type="number" id="14" size=1 value=""></input></td>
+			<td><input type="number" id="15" size=1 value=""></input></td>
+			<td><input type="number" id="16" size=1 value=""></input></td>
+			<td><input type="number" id="17" size=1 value=""></input></td>
+			<td><input type="number" id="18" size=1 value=""></input></td>
+		</tr>
+		<tr>
+			
+			<td><input type="number" id="20" size=1 value=""></input></td>
+			<td><input type="number" id="21" size=1 value=""></input></td>
+			<td><input type="number" id="22" size=1 value=""></input></td>
+			<td><input type="number" id="23" size=1 value=""></input></td>
+			<td><input type="number" id="24" size=1 value=""></input></td>
+			<td><input type="number" id="25" size=1 value=""></input></td>
+			<td><input type="number" id="26" size=1 value=""></input></td>
+			<td><input type="number" id="27" size=1 value=""></input></td>
+			<td><input type="number" id="28" size=1 value=""></input></td>
+		</tr>
+		<tr>
+			<td><input type="number" id="30" size=1 value=""></input></td>
+			<td><input type="number" id="31" size=1 value=""></input></td>
+			<td><input type="number" id="32" size=1 value=""></input></td>
+			<td><input type="number" id="33" size=1 value=""></input></td>
+			<td><input type="number" id="34" size=1 value=""></input></td>
+			<td><input type="number" id="35" size=1 value=""></input></td>
+			<td><input type="number" id="36" size=1 value=""></input></td>
+			<td><input type="number" id="37" size=1 value=""></input></td>
+			<td><input type="number" id="38" size=1 value=""></input></td>
+			
+		</tr>
+		<tr>
+			<td><input type="number" id="40" size=1 value=""></input></td>
+			<td><input type="number" id="41" size=1 value=""></input></td>
+			<td><input type="number" id="42" size=1 value=""></input></td>
+			<td><input type="number" id="43" size=1 value=""></input></td>
+			<td><input type="number" id="44" size=1 value=""></input></td>
+			<td><input type="number" id="45" size=1 value=""></input></td>
+			<td><input type="number" id="46" size=1 value=""></input></td>
+			<td><input type="number" id="47" size=1 value=""></input></td>
+			<td><input type="number" id="48" size=1 value=""></input></td>		
+		</tr>
+		<tr>
+			
+			<td><input type="number" id="50" size=1 value=""></input></td>
+			<td><input type="number" id="51" size=1 value=""></input></td>
+			<td><input type="number" id="52" size=1 value=""></input></td>
+			<td><input type="number" id="53" size=1 value=""></input></td>
+			<td><input type="number" id="54" size=1 value=""></input></td>
+			<td><input type="number" id="55" size=1 value=""></input></td>
+			<td><input type="number" id="56" size=1 value=""></input></td>
+			<td><input type="number" id="57" size=1 value=""></input></td>
+			<td><input type="number" id="58" size=1 value=""></input></td>			
+		</tr>
+		<tr>
+			
+			<td><input type="number" id="60" size=1 value=""></input></td>
+			<td><input type="number" id="61" size=1 value=""></input></td>
+			<td><input type="number" id="62" size=1 value=""></input></td>
+			<td><input type="number" id="63" size=1 value=""></input></td>
+			<td><input type="number" id="64" size=1 value=""></input></td>
+			<td><input type="number" id="65" size=1 value=""></input></td>
+			<td><input type="number" id="66" size=1 value=""></input></td>
+			<td><input type="number" id="67" size=1 value=""></input></td>
+			<td><input type="number" id="68" size=1 value=""></input></td>
+		</tr>
+		<tr>
+			
+			<td><input type="number" id="70" size=1 value=""></input></td>
+			<td><input type="number" id="71" size=1 value=""></input></td>
+			<td><input type="number" id="72" size=1 value=""></input></td>
+			<td><input type="number" id="73" size=1 value=""></input></td>
+			<td><input type="number" id="74" size=1 value=""></input></td>
+			<td><input type="number" id="75" size=1 value=""></input></td>
+			<td><input type="number" id="76" size=1 value=""></input></td>
+			<td><input type="number" id="77" size=1 value=""></input></td>
+		        <td><input type="number" id="78" size=1 value=""></input></td>
+			
+		</tr>
+		<tr>
+			<td><input type="number" id="80" size=1 value=""></input></td>
+			<td><input type="number" id="81" size=1 value=""></input></td>
+			<td><input type="number" id="82" size=1 value=""></input></td>
+			<td><input type="number" id="83" size=1 value=""></input></td>
+			<td><input type="number" id="84" size=1 value=""></input></td>
+			<td><input type="number" id="85" size=1 value=""></input></td>
+			<td><input type="number" id="86" size=1 value=""></input></td>
+			<td><input type="number" id="87" size=1 value=""></input></td>
+			<td><input type="number" id="88" size=1 value=""></input></td>
+		</tr>
+	</table>
+	<button class="button1" onclick="getvalue()">Solve</button>
+	<button class="button2" onclick="reset()">Reset</button>
+</body>
+</html>

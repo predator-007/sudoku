@@ -1,0 +1,86 @@
+h1{
+ font-family: "Lucida Console", Courier, monospace;
+ text-align : center;
+}
+td:nth-child(3n){
+	border-right:2px solid black;
+}
+tr:nth-child(3n){
+	border-bottom : 2px solid black;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left : auto;
+  margin-right : auto;
+  background : #D3D3D3;
+}
+div input{
+ background : #000000;
+}
+
+input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+
+input:hover {
+	background: #a5fdf0;
+}
+input #00{
+ background : red;
+}
+.button1 {
+  display : block;
+  margin-left : auto:
+  margin-right : auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+.button1:hover {background-color: #00dcff}
+.button1:active {
+  background-color: #00dcff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button2 {
+  display : block;
+  margin-left : auto:
+  margin-right : auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+.button2:hover {background-color: #00dcff}
+.button2:active {
+  background-color: #00dcff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} 
+button{
+ display: block;
+ margin-left : auto;
+ margin-right : auto;
+ margin-top :6px;
+ margin-bottom :6px;
+ padding : 8px;
+}
